@@ -3,6 +3,9 @@ using namespace std;
 int main(){
     int n,q,j=0;
     cin>>n>>q;
+    if(n==0&&q==0){
+        return 0;
+    }
     int a[n];
     for (int i = 0; i < n; i++)
     {
